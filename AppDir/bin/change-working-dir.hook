@@ -1,5 +1,5 @@
 #!/bin/sh
-export SHIP_HOME="${SHIP_HOME:-$DATADIR/soh}"
+export SHIP_HOME="${SHIP_HOME:-$DATADIR/spaghettify}"
 mkdir -p "$SHIP_HOME"
 
 #dir=$DATADIR/spaghettify
