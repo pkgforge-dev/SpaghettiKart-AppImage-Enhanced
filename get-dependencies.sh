@@ -42,7 +42,8 @@ cmake . \
     -GNinja
 cmake --build build --config Release
 cmake --build build --config Release --target GenerateO2R
-cmake --install build
+cmake --install build --component ship
+cmake --install build --component extractor
 
 #mv -v build/yamls ../AppDir/bin
 #mv -v build/meta ../AppDir/bin
