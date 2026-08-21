@@ -1,11 +1,15 @@
 #!/bin/sh
-dir=$DATADIR/spaghettify
-mkdir -p "$dir"
-cd "$dir"
+#!/bin/sh
+export SHIP_HOME="${SHIP_HOME:-$DATADIR/soh}"
+mkdir -p "$SHIP_HOME"
 
-for f in spaghetti.o2r config.yml gamecontrollerdb.txt yamls meta; do
-	f="$APPDIR"/bin/"$f" 
-	if [ -e "$f" ]; then
-		cp -af "$f" ./
-	fi
-done
+#dir=$DATADIR/spaghettify
+#mkdir -p "$dir"
+#cd "$dir"
+
+#for f in spaghetti.o2r config.yml gamecontrollerdb.txt yamls meta; do
+#	f="$APPDIR"/bin/"$f" 
+#	if [ -e "$f" ]; then
+#		cp -af "$f" ./
+#	fi
+#done
