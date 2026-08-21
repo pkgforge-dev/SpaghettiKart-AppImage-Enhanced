@@ -37,17 +37,14 @@ patch -Np1 -i ../spaghettikart-cmake-flags.patch
 cmake . \
     -Bbuild \
     -GNinja
-#    -DCMAKE_INSTALL_PREFIX=/opt/spaghettikart \
 cmake --build build --config Release
 cmake --build build --config Release --target GenerateO2R
-#cmake --install build
 
 mv -v build/yamls ../AppDir/bin
 mv -v build/meta ../AppDir/bin
 mv -v build/Spaghettify ../AppDir/bin
 mv -v build/config.yml ../AppDir/bin
 mv -v build/spaghetti.o2r ../AppDir/bin
-#mv -v /opt/spaghettikart/* ../AppDir/bin
 wget -O ../AppDir/bin/gamecontrollerdb.txt https://raw.githubusercontent.com/mdqinc/SDL_GameControllerDB/master/gamecontrollerdb.txt
 cp -v icon.png ../AppDir/.DirIcon
 mv -v icon.png ../AppDir/spaghettikart.png
