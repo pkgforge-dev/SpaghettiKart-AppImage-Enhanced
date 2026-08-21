@@ -42,12 +42,11 @@ cmake . \
     -GNinja
 cmake --build build --config Release
 cmake --build build --config Release --target GenerateO2R
-cmake --install build --component ship
-cmake --install build --component extractor
+cmake --install build
 
 #mv -v build/yamls ../AppDir/bin
 #mv -v build/meta ../AppDir/bin
-#mv -v build/Spaghettify ../AppDir/bin
+mv -v build/Spaghettify ../AppDir/bin
 #mv -v build/config.yml ../AppDir/bin
 #mv -v build/spaghetti.o2r ../AppDir/bin
 mv -v /opt/spaghettikart/* ../AppDir/bin
