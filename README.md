@@ -17,8 +17,6 @@
 
 </div>
 
-### ⚠️ Need to generate `mk64.o2r` using official [AppImage](https://github.com/HarbourMasters/SpaghettiKart/releases) and place in `~/.local/share/spaghettify/` ⚠️
-
 ---
 
 AppImage made using [quick-sharun](https://github.com/pkgforge-dev/Anylinux-AppImages/blob/main/useful-tools/quick-sharun.sh), which makes it extremely easy to turn any binary into a portable package reliably without using containers or similar tricks. 
