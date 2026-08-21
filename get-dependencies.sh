@@ -38,7 +38,7 @@ cd ./SpaghettiKart
 patch -Np1 -i ../spaghettikart-cmake-flags.patch
 cmake . \
     -Bbuild \
-    -DCMAKE_INSTALL_PREFIX=/opt/spaghettikart
+    -DCMAKE_INSTALL_PREFIX=/opt/spaghettikart \
     -GNinja
 cmake --build build --config Release
 cmake --build build --config Release --target GenerateO2R
