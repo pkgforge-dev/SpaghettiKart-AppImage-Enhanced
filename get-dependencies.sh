@@ -38,8 +38,7 @@ cd ./SpaghettiKart
 patch -Np1 -i ../spaghettikart-cmake-flags.patch
 cmake . \
     -Bbuild \
-    -GNinja \
-    -DNON_PORTABLE=On
+    -GNinja
 cmake --build build --config Release
 cmake --build build --config Release --target GenerateO2R
 
