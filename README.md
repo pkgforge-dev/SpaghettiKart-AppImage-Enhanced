@@ -3,7 +3,7 @@
 # SpaghettiKart-AppImage-Enhanced 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/SpaghettiKart-AppImage-Enhanced/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/SpaghettiKart-AppImage-Enhanced/releases/latest)
-[![CI Build Status](https://github.com//pkgforge-dev/SpaghettiKart-AppImage-Enhanced/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/SpaghettiKart-AppImage-Enhanced/releases/latest)
+[![CI Build Status](https://github.com/pkgforge-dev/SpaghettiKart-AppImage-Enhanced/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/SpaghettiKart-AppImage-Enhanced/releases/latest)
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/SpaghettiKart-AppImage-Enhanced)](https://github.com/pkgforge-dev/SpaghettiKart-AppImage-Enhanced/releases/latest)
 
 <p align="center">
