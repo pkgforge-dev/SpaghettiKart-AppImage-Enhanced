@@ -10,7 +10,6 @@ pacman -Syu --noconfirm \
     cmake         \
     fmt           \
     libzip        \
-    ninja         \
     nlohmann-json \
     sdl2          \
     sdl2_net      \
@@ -33,10 +32,7 @@ echo "$VERSION" > ~/version
 mkdir -p ./AppDir/bin
 cd ./SpaghettiKart
 patch -Np1 -i ../spaghettikart-cmake-flags.patch
-cmake . \
-    -Bbuild \
-    -GNinja \
-    -DCMAKE_BUILD_TYPE=Release
+cmake . -Bbuild -DCMAKE_BUILD_TYPE=Release
 cmake --build build --config Release -j$(nproc)
 cmake --build build --config Release --target GenerateO2R -j$(nproc)
 
