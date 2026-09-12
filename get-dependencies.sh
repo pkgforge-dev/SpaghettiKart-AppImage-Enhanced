@@ -11,7 +11,6 @@ pacman -Syu --noconfirm \
     fmt           \
     libzip        \
     nlohmann-json \
-    sdl2          \
     sdl2_net      \
     spdlog        \
     tinyxml2
